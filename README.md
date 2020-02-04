@@ -4,6 +4,7 @@
 
 - Python 3 installed
 - Pygame library (pip install pygame)
+- Turn up the volume
 
 ## Rules
 
