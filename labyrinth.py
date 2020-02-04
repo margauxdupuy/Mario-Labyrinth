@@ -70,7 +70,7 @@ while continue_game:
     if file_level != 0:
 
         # Generate the map structure according to the level
-        game_map = level()
+        game_map = Level()
         structure_map = game_map.get_structure(file_level)
         game_map.display_structure()
 
@@ -78,7 +78,7 @@ while continue_game:
         list_coins = [coordinates for coordinates in game_map._list_squares if game_map._list_squares[coordinates] == "c"]
 
         # Generate mario character with its speed
-        mario = character()
+        mario = Character()
         pygame.key.set_repeat(400, 30)
 
         # Main theme song
