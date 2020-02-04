@@ -1,5 +1,10 @@
 # Mario Labyrinth
 
+# Requirements
+
+- Python 3 installed
+- Pygame library (pip install pygame)
+
 # Rules
 
 The goal is obvious, you must find the peach princess who is lost in this amazing maze.
@@ -10,7 +15,7 @@ If you pass level 2, you will get 4 points.
 
 Each coin will earn you a point.
 
-# How play
+# How to play
 
 Super easy!
 
