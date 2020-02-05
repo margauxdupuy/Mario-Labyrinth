@@ -1,10 +1,17 @@
 # Mario Labyrinth
 
-## Requirements
+## Setup (macOS)
 
-- Python 3 installed
-- Pygame library (pip install pygame)
-- Turn up the volume
+- Check if you have Python3 installed on your computer : `python3 --version`
+- If you don't have it, run : use Homebrew with `brew install python3` or download the package `https://www.python.org/ftp/python/3.8.1/python-3.8.1-macosx10.9.pkg`
+
+- Once you get at least `3.5` as the installed version, you can proceed:
+
+    - Clone this repository
+    - Download the virtualenv package : `pip install virtualenv`
+    - In the repo folder, activate the virtual environment : `source env/bin/activate`
+    - Launch the game : `python3 labyrinth.py your_username` 
+
 
 ## Rules
 
@@ -16,9 +23,4 @@ If you pass level 2, you will get 4 points.
 
 Each coin will earn you a point.
 
-## How to play
-
-Super easy!
-
-To launch the game, run `python3 labyrinth.py your_username` in the folder MarioLabyrinth.
 
