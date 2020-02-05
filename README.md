@@ -10,7 +10,7 @@
     - Clone this repository
     - Download the virtualenv package : `pip install virtualenv`
     - In the repo folder, activate the virtual environment : `source env/bin/activate`
-    - Launch the game : `python3 labyrinth.py your_username` 
+    - Launch the game : `env/bin/python3 labyrinth.py your_username` 
 
 
 ## Rules
