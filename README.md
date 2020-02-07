@@ -8,9 +8,8 @@
 - Once you get at least `3.5` as the installed version, you can proceed:
 
     - Clone this repository
-    - Download the virtualenv package : `pip install virtualenv`
-    - In the repo folder, activate the virtual environment : `source env/bin/activate`
-    - Launch the game : `env/bin/python3 labyrinth.py your_username` 
+    - Install the requirements : `pip install -r requirements.txt`
+    - Launch the game : `python3 labyrinth.py your_username` 
 
 
 ## Rules
@@ -24,3 +23,6 @@ If you pass level 2, you will get 4 points.
 Each coin will earn you a point.
 
 
+## Troubleshooting
+
+It's possible that you have issues with pygame (no images), try to install the latest dev release : `pip install pygame==2.0.0.dev4`  
