@@ -1,13 +1,14 @@
 # Mario Labyrinth
 
-## Setup (macOS)
+## Setup
 
 - Check if you have Python3 installed on your computer : `python3 --version`
-- If you don't have it, run : use Homebrew with `brew install python3` or download the package `https://www.python.org/ftp/python/3.8.1/python-3.8.1-macosx10.9.pkg`
+- If you don't have it, run : download the package on `https://www.python.org/downloads/`
 
 - Once you get at least `3.5` as the installed version, you can proceed:
 
-    - Clone this repository
+    - Clone this repository : `git clone https://github.com/MargauxDupuy/Mario-Labyrinth.git`
+    - Go to the repo : `cd Mario-Labyrinth`
     - Install the requirements : `pip install -r requirements.txt`
     - Launch the game : `python3 labyrinth.py your_username` 
 
@@ -20,9 +21,9 @@ You can save your score with your name and play another time while keeping your 
 If you pass level 1, you will get 2 points.
 If you pass level 2, you will get 4 points.
 
-Each coin will earn you a point.
+Each coin will earn you 1 point.
 
 
 ## Troubleshooting
 
-It's possible that you have issues with pygame (no images), try to install the latest dev release : `pip install pygame==2.0.0.dev4`  
+It's possible that you have issues with pygame (no images on the game), try to install the latest dev release instead : `pip install pygame==2.0.0.dev4`  
